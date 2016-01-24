@@ -28,9 +28,6 @@ PRODUCT_PACKAGES += \
     qcrilhook
 
 PRODUCT_PACKAGES += \
-    libmm-abl
-
-PRODUCT_PACKAGES += \
     libloc_api_v02 \
     libloc_ds_api
 

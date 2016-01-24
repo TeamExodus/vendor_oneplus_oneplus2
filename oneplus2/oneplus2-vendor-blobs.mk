@@ -54,12 +54,11 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus2/proprietary/lib64/libopcamera.so:/system/lib64/libopcamera.so \
         vendor/oneplus/oneplus2/proprietary/lib64/libopcameralib.so:/system/lib64/libopcameralib.so \
         vendor/oneplus/oneplus2/proprietary/lib/hw/camera.msm8994.so:/system/lib/hw/camera.msm8994.so \
+        vendor/oneplus/oneplus2/proprietary/lib/libFNVfbEngineLib.so:/system/lib/libFNVfbEngineLib.so \
         vendor/oneplus/oneplus2/proprietary/lib/libmm-qcamera.so:/system/lib/libmm-qcamera.so \
         vendor/oneplus/oneplus2/proprietary/lib/libmmcamera_interface.so:/system/lib/libmmcamera_interface.so \
         vendor/oneplus/oneplus2/proprietary/lib/libmmjpeg_interface.so:/system/lib/libmmjpeg_interface.so \
-        vendor/oneplus/oneplus2/proprietary/lib/liboneplus_camera.so:/system/lib/liboneplus_camera.so \
-        vendor/oneplus/oneplus2/proprietary/lib/libopcamera.so:/system/lib/libopcamera.so \
-        vendor/oneplus/oneplus2/proprietary/lib/libopcameralib.so:/system/lib/libopcameralib.so \
+        vendor/oneplus/oneplus2/proprietary/lib/libopcamerahw_interface.so:/system/lib/libopcamerahw_interface.so \
         vendor/oneplus/oneplus2/proprietary/lib/libqomx_core.so:/system/lib/libqomx_core.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libmmcamera2_q3a_core.so:/system/vendor/lib64/libmmcamera2_q3a_core.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libmmcamera2_sensor_debug.so:/system/vendor/lib64/libmmcamera2_sensor_debug.so \
@@ -221,11 +220,21 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus2/proprietary/etc/firmware/fingerprints.mdt:/system/etc/firmware/fingerprints.mdt \
         vendor/oneplus/oneplus2/proprietary/bin/location-mq:/system/bin/location-mq \
         vendor/oneplus/oneplus2/proprietary/etc/permissions/com.qualcomm.location.xml:/system/etc/permissions/com.qualcomm.location.xml \
+        vendor/oneplus/oneplus2/proprietary/lib64/hw/gps.default.so:/system/lib64/hw/gps.default.so \
+        vendor/oneplus/oneplus2/proprietary/lib/hw/gps.default.so:/system/lib/hw/gps.default.so \
+        vendor/oneplus/oneplus2/proprietary/lib64/libgps.utils.so:/system/lib64/libgps.utils.so \
+        vendor/oneplus/oneplus2/proprietary/lib64/libloc_core.so:/system/lib64/libloc_core.so \
+        vendor/oneplus/oneplus2/proprietary/lib64/libloc_eng.so:/system/lib64/libloc_eng.so \
+        vendor/oneplus/oneplus2/proprietary/lib/libgps.utils.so:/system/lib/libgps.utils.so \
+        vendor/oneplus/oneplus2/proprietary/lib/libloc_core.so:/system/lib/libloc_core.so \
+        vendor/oneplus/oneplus2/proprietary/lib/libloc_eng.so:/system/lib/libloc_eng.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/hw/flp.default.so:/system/vendor/lib64/hw/flp.default.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libalarmservice_jni.so:/system/vendor/lib64/libalarmservice_jni.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libgeofence.so:/system/vendor/lib64/libgeofence.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libizat_core.so:/system/vendor/lib64/libizat_core.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/liblbs_core.so:/system/vendor/lib64/liblbs_core.so \
+        vendor/oneplus/oneplus2/proprietary/vendor/lib64/libloc_ext.so:/system/vendor/lib64/libloc_ext.so \
+        vendor/oneplus/oneplus2/proprietary/vendor/lib64/libloc_xtra.so:/system/vendor/lib64/libloc_xtra.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/liblocationservice.so:/system/vendor/lib64/liblocationservice.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/liblowi_client.so:/system/vendor/lib64/liblowi_client.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libquipc_os_api.so:/system/vendor/lib64/libquipc_os_api.so \
@@ -238,6 +247,7 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libgeofence.so:/system/vendor/lib/libgeofence.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libizat_core.so:/system/vendor/lib/libizat_core.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/liblbs_core.so:/system/vendor/lib/liblbs_core.so \
+        vendor/oneplus/oneplus2/proprietary/vendor/lib/libloc_ext.so:/system/vendor/lib/libloc_ext.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/liblocationservice.so:/system/vendor/lib/liblocationservice.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/liblowi_client.so:/system/vendor/lib/liblowi_client.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libquipc_os_api.so:/system/vendor/lib/libquipc_os_api.so \
@@ -318,13 +328,8 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus2/proprietary/bin/pm-service:/system/bin/pm-service \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libperipheral_client.so:/system/vendor/lib64/libperipheral_client.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libperipheral_client.so:/system/vendor/lib/libperipheral_client.so \
-        vendor/oneplus/oneplus2/proprietary/bin/mm-pp-daemon:/system/bin/mm-pp-daemon \
-        vendor/oneplus/oneplus2/proprietary/vendor/lib64/libdisp-aba.so:/system/vendor/lib64/libdisp-aba.so \
-        vendor/oneplus/oneplus2/proprietary/vendor/lib64/libmm-abl-oem.so:/system/vendor/lib64/libmm-abl-oem.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libmm-als.so:/system/vendor/lib64/libmm-als.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libmm-qdcm.so:/system/vendor/lib64/libmm-qdcm.so \
-        vendor/oneplus/oneplus2/proprietary/vendor/lib/libdisp-aba.so:/system/vendor/lib/libdisp-aba.so \
-        vendor/oneplus/oneplus2/proprietary/vendor/lib/libmm-abl-oem.so:/system/vendor/lib/libmm-abl-oem.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libmm-als.so:/system/vendor/lib/libmm-als.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libmm-qdcm.so:/system/vendor/lib/libmm-qdcm.so \
         vendor/oneplus/oneplus2/proprietary/bin/irsc_util:/system/bin/irsc_util \
@@ -356,7 +361,6 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus2/proprietary/etc/permissions/qcnvitems.xml:/system/etc/permissions/qcnvitems.xml \
         vendor/oneplus/oneplus2/proprietary/etc/permissions/qcrilhook.xml:/system/etc/permissions/qcrilhook.xml \
         vendor/oneplus/oneplus2/proprietary/lib64/libparam.so:/system/lib64/libparam.so \
-        vendor/oneplus/oneplus2/proprietary/lib64/librmnetctl.so:/system/lib64/librmnetctl.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libcneapiclient.so:/system/vendor/lib64/libcneapiclient.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libconfigdb.so:/system/vendor/lib64/libconfigdb.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libnetmgr.so:/system/vendor/lib64/libnetmgr.so \
