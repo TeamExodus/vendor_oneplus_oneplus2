@@ -35,14 +35,6 @@ PRODUCT_PACKAGES += \
     libloc_ds_api
 
 PRODUCT_PACKAGES += \
-    libtime_genoff \
-    libTimeService \
-    libdiag \
-    libdsutils \
-    libmdmdetect \
-    libqcci_legacy \
-    libqmi \
-    libqmi_client_qmux \
-    libqmiservices
+    libtime_genoff
 
 $(call inherit-product, vendor/oneplus/oneplus2/oneplus2-vendor-blobs.mk)
