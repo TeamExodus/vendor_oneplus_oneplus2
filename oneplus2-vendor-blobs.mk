@@ -79,7 +79,6 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus2/proprietary/etc/firmware/tp/14049/14049_FW_S3320_jdi.img:/system/etc/firmware/tp/14049/14049_FW_S3320_jdi.img \
         vendor/oneplus/oneplus2/proprietary/lib/hw/camera.msm8994.so:/system/lib/hw/camera.msm8994.so \
         vendor/oneplus/oneplus2/proprietary/lib/hw/fingerprint.msm8994.so:/system/lib/hw/fingerprint.msm8994.so \
-        vendor/oneplus/oneplus2/proprietary/lib/hw/lights.msm8994.so:/system/lib/hw/lights.msm8994.so \
         vendor/oneplus/oneplus2/proprietary/lib/hw/sensors.msm8994.so:/system/lib/hw/sensors.msm8994.so \
         vendor/oneplus/oneplus2/proprietary/lib/libcom_fingerprints_service.so:/system/lib/libcom_fingerprints_service.so \
         vendor/oneplus/oneplus2/proprietary/lib/libFNVfbEngineLib.so:/system/lib/libFNVfbEngineLib.so \
@@ -90,7 +89,6 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus2/proprietary/lib/libqomx_core.so:/system/lib/libqomx_core.so \
         vendor/oneplus/oneplus2/proprietary/lib/libdrmdecrypt.so:/system/lib/libdrmdecrypt.so \
         vendor/oneplus/oneplus2/proprietary/lib64/hw/fingerprint.msm8994.so:/system/lib64/hw/fingerprint.msm8994.so \
-        vendor/oneplus/oneplus2/proprietary/lib64/hw/lights.msm8994.so:/system/lib64/hw/lights.msm8994.so \
         vendor/oneplus/oneplus2/proprietary/lib64/hw/sensors.hal.tof.so:/system/lib64/hw/sensors.hal.tof.so \
         vendor/oneplus/oneplus2/proprietary/lib64/hw/sensors.msm8994.so:/system/lib64/hw/sensors.msm8994.so \
         vendor/oneplus/oneplus2/proprietary/lib64/libcom_fingerprints_service.so:/system/lib64/libcom_fingerprints_service.so \
