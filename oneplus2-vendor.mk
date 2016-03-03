@@ -28,13 +28,21 @@ PRODUCT_PACKAGES += \
     qcrilhook
 
 PRODUCT_PACKAGES += \
-    libmm-abl
-
-PRODUCT_PACKAGES += \
     libloc_api_v02 \
     libloc_ds_api
 
 PRODUCT_PACKAGES += \
     libtime_genoff
+
+PRODUCT_PACKAGES += \
+    libdiag \
+    libdsutils \
+    libidl \
+    libmdmdetect \
+    libqcci_legacy \
+    libqmi_cci \
+    libqmi_client_qmux \
+    libqmiservices \
+    libqmi
 
 $(call inherit-product, vendor/oneplus/oneplus2/oneplus2-vendor-blobs.mk)
