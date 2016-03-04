@@ -45,4 +45,7 @@ PRODUCT_PACKAGES += \
     libqmiservices \
     libqmi
 
+PRODUCT_PACKAGES += \
+    libmm-disp-apis
+
 $(call inherit-product, vendor/oneplus/oneplus2/oneplus2-vendor-blobs.mk)
