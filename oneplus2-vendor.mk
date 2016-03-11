@@ -21,9 +21,6 @@ PRODUCT_PACKAGES += \
     TimeService
 
 PRODUCT_PACKAGES += \
-    com.qualcomm.location
-
-PRODUCT_PACKAGES += \
     qcnvitems \
     qcrilhook
 
