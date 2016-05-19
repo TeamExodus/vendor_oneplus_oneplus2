@@ -1,4 +1,4 @@
-# Copyright (C) 2015 The CyanogenMod Project
+# Copyright (C) 2016 Exodus Android
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -18,7 +18,9 @@
 PRODUCT_PACKAGES += \
     CNEService \
     com.qti.dpmframework \
-    dpmapi
+    dpmapi \
+#    dpmserviceapp \
+    fastdormancy
 
 PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
@@ -51,5 +53,9 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     keystore.msm8994
+
+PRODUCT_BOOT_JARS += com.qti.dpmframework
+PRODUCT_BOOT_JARS += dpmapi
+PRODUCT_BOOT_JARS += tcmiface
 
 $(call inherit-product, vendor/oneplus/oneplus2/oneplus2-vendor-blobs.mk)
