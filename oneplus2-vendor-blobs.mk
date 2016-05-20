@@ -238,7 +238,9 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libdpmframework.so:/system/vendor/lib/libdpmframework.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libdpmnsrm.so:/system/vendor/lib/libdpmnsrm.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libdpmtcm.so:system/vendor/lib/libdpmtcm.so \
+        vendor/oneplus/oneplus2/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
         vendor/oneplus/oneplus2/proprietary/bin/qseecomd:/system/bin/qseecomd \
+        vendor/oneplus/oneplus2/proprietary/vendor/lib64/libqc-opt.so:/system/vendor/lib64/libqc-opt.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libQSEEComAPI.so:/system/vendor/lib64/libQSEEComAPI.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libdrmfs.so:/system/vendor/lib64/libdrmfs.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libdrmtime.so:/system/vendor/lib64/libdrmtime.so \
