@@ -405,6 +405,8 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus2/proprietary/bin/sensors.qcom:/system/bin/sensors.qcom \
         vendor/oneplus/oneplus2/proprietary/etc/firmware/tp/14049/14049_FW_S1302.img:/system/etc/firmware/tp/14049/14049_FW_S1302.img \
         vendor/oneplus/oneplus2/proprietary/etc/firmware/tp/14049/14049_FW_S3320_jdi.img:/system/etc/firmware/tp/14049/14049_FW_S3320_jdi.img \
+        vendor/oneplus/oneplus2/proprietary/lib64/hw/sensors.msm8994.so:/system/lib64/hw/sensors.msm8994.so \
+        vendor/oneplus/oneplus2/proprietary/lib/hw/sensors.msm8994.so:/system/lib/hw/sensors.msm8994.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/hw/activity_recognition.msm8994.so:/system/vendor/lib/hw/activity_recognition.msm8994.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libsensor1.so:/system/vendor/lib/libsensor1.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libsensor_reg.so:/system/vendor/lib/libsensor_reg.so \
