@@ -207,6 +207,7 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus2/proprietary/framework/ConnectivityExt.jar:/system/framework/ConnectivityExt.jar \
         vendor/oneplus/oneplus2/proprietary/framework/cneapiclient.jar:/system/framework/cneapiclient.jar \
         vendor/oneplus/oneplus2/proprietary/framework/com.quicinc.cne.jar:/system/framework/com.quicinc.cne.jar \
+        vendor/oneplus/oneplus2/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libNimsWrap.so:/system/vendor/lib/libNimsWrap.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libcne.so:/system/vendor/lib/libcne.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libcneapiclient.so:/system/vendor/lib/libcneapiclient.so \
@@ -226,7 +227,6 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus2/proprietary/bin/dpmd:/system/bin/dpmd \
         vendor/oneplus/oneplus2/proprietary/etc/dpm/dpm.conf:/system/etc/dpm/dpm.conf \
         vendor/oneplus/oneplus2/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:/system/etc/dpm/nsrm/NsrmConfiguration.xml \
-        vendor/oneplus/oneplus2/proprietary/etc/permissions/dpmapi.xml:/system/etc/permissions/dpmapi.xml \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libdpmctmgr.so:/system/vendor/lib/libdpmctmgr.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libdpmfdmgr.so:/system/vendor/lib/libdpmfdmgr.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib/libdpmframework.so:/system/vendor/lib/libdpmframework.so \
