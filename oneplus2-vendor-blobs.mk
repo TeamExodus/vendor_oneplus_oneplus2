@@ -38,7 +38,6 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus2/proprietary/bin/btnvtool:/system/bin/btnvtool \
         vendor/oneplus/oneplus2/proprietary/bin/hci_qcomm_init:/system/bin/hci_qcomm_init \
         vendor/oneplus/oneplus2/proprietary/bin/wcnss_filter:/system/bin/wcnss_filter \
-        vendor/oneplus/oneplus2/proprietary/bin/rild:/system/bin/rild \
         vendor/oneplus/oneplus2/proprietary/etc/firmware/nvm_tlv.bin:/system/etc/firmware/nvm_tlv.bin \
         vendor/oneplus/oneplus2/proprietary/etc/firmware/nvm_tlv_1.3.bin:/system/etc/firmware/nvm_tlv_1.3.bin \
         vendor/oneplus/oneplus2/proprietary/etc/firmware/nvm_tlv_2.1.bin:/system/etc/firmware/nvm_tlv_2.1.bin \
