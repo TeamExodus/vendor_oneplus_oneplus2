@@ -18,11 +18,11 @@
 PRODUCT_PACKAGES += \
     CNEService \
     com.qti.dpmframework \
-    dpmapi \
-    fastdormancy
+    dpmapi
 
 PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
+    QtiTelephonyService \
     shutdownlistener \
     TimeService
 

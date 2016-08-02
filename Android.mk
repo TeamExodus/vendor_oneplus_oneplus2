@@ -41,9 +41,9 @@ LOCAL_CERTIFICATE := platform
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := shutdownlistener
+LOCAL_MODULE := QtiTelephonyService
 LOCAL_MODULE_OWNER := oneplus
-LOCAL_SRC_FILES := proprietary/app/shutdownlistener/shutdownlistener.apk
+LOCAL_SRC_FILES := proprietary/app/QtiTelephonyService/QtiTelephonyService.apk
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_MODULE_CLASS := APPS
@@ -51,9 +51,9 @@ LOCAL_CERTIFICATE := platform
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := fastdormancy
+LOCAL_MODULE := shutdownlistener
 LOCAL_MODULE_OWNER := oneplus
-LOCAL_SRC_FILES := proprietary/app/fastdormancy/fastdormancy.apk
+LOCAL_SRC_FILES := proprietary/app/shutdownlistener/shutdownlistener.apk
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_MODULE_CLASS := APPS
